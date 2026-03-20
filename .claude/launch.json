@@ -1,0 +1,29 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "fetch-page",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["scripts/fetch_page.py"],
+      "port": 0
+    },
+    {
+      "name": "parse-html",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["scripts/parse_html.py"],
+      "port": 0
+    },
+    {
+      "name": "capture-screenshot",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["scripts/capture_screenshot.py"],
+      "port": 0
+    },
+    {
+      "name": "analyze-visual",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["scripts/analyze_visual.py"],
+      "port": 0
+    }
+  ]
+}
