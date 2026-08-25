@@ -113,6 +113,7 @@ claude
 | `/seo programmatic <url>` | Programmatic SEO analysis and planning |
 | `/seo competitor-pages <url>` | Competitor comparison page generation |
 | `/seo hreflang <url>` | Hreflang/i18n SEO audit and generation |
+| `/seo ppc-keywords <seed or url>` | PPC keyword research for Google/Bing Ads |
 
 ### `/seo programmatic [url|plan]`
 **Programmatic SEO Analysis & Planning**
