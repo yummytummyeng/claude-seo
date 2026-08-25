@@ -1,6 +1,6 @@
 {
   "name": "claude-seo",
-  "version": "1.5.0",
+  "version": "1.6.0",
   "description": "Comprehensive SEO analysis skill for Claude Code. Covers technical SEO, content quality (E-E-A-T), schema markup, image optimization, sitemap architecture, AI search optimization (GEO), and strategic planning across all industries.",
   "author": "AgriciDaniel",
   "license": "MIT",
@@ -20,6 +20,7 @@
     "skills/seo-programmatic/SKILL.md",
     "skills/seo-competitor-pages/SKILL.md",
     "skills/seo-hreflang/SKILL.md",
+    "skills/seo-ppc-keywords/SKILL.md",
     "extensions/dataforseo/skills/seo-dataforseo/SKILL.md",
     "extensions/banana/skills/seo-image-gen/SKILL.md"
   ],

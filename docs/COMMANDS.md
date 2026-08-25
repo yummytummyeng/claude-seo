@@ -260,6 +260,32 @@ Programmatic SEO analysis and planning for pages generated at scale.
 
 ---
 
+### `/seo ppc-keywords <seed or url>`
+
+PPC / paid search keyword research for Google Ads and Microsoft (Bing) Ads.
+
+**Example:**
+```
+/seo ppc-keywords "waterproof running shoes"
+/seo ppc-keywords https://example.com/products/running-shoes
+```
+
+**What it does:**
+1. Expands seed keyword(s) into head/mid/long-tail/branded candidates
+2. Filters by commercial/transactional intent (PPC-relevant, not organic)
+3. Recommends match types (broad/phrase/exact) per keyword
+4. Surfaces negative keywords to avoid wasted spend
+5. Clusters keywords into ad groups (thematic or SKAG)
+6. Prioritizes by estimated CPC, competition, volume, and intent strength
+
+**Output:**
+- Campaign/ad group structure
+- Keyword table (match type, intent, est. volume, est. CPC, competition, tier)
+- Negative keyword list
+- Landing page and Quality Score gap flags
+
+---
+
 ### `/seo dataforseo [command]`
 
 Live SEO data via DataForSEO MCP server (extension). 22 commands across 9 API modules.
@@ -354,6 +380,7 @@ AI image generation for SEO assets (extension). Powered by Gemini via nanobanana
 | `/seo content <url>` | E-E-A-T analysis |
 | `/seo geo <url>` | AI search optimization |
 | `/seo hreflang [url]` | Hreflang/i18n SEO audit |
+| `/seo ppc-keywords <seed\|url>` | PPC keyword research (Google/Bing Ads) |
 | `/seo images <url>` | Image optimization |
 | `/seo image-gen [use-case] <desc>` | AI image generation (extension) |
 | `/seo page <url>` | Single page analysis |

@@ -26,6 +26,7 @@ Claude SEO follows Anthropic's official Claude Code skill specification with a m
 │   ├── seo-page/             # Single page analysis
 │   ├── seo-plan/             # Strategic planning
 │   │   └── assets/           # Industry templates
+│   ├── seo-ppc-keywords/     # PPC keyword research (Google/Bing Ads)
 │   ├── seo-programmatic/     # Programmatic SEO
 │   ├── seo-schema/           # Schema markup
 │   ├── seo-sitemap/          # Sitemap analysis/generation

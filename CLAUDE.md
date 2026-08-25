@@ -13,14 +13,14 @@ schema markup, image optimization, sitemap architecture, and AI search optimizat
 ```
 claude-seo/
   CLAUDE.md                          # Project instructions (this file)
-  .claude-plugin/plugin.json         # Plugin manifest v1.5.0
+  .claude-plugin/plugin.json         # Plugin manifest v1.6.0
   seo/                               # Main orchestrator skill
     SKILL.md                         # Entry point, routing table, core rules
     references/                      # On-demand knowledge files
   scripts/                           # Python execution scripts
   hooks/                             # Quality gate hooks
   schema/                            # Schema.org JSON-LD templates
-  skills/                            # 12 specialized sub-skills
+  skills/                            # 13 specialized sub-skills
     seo-audit/SKILL.md              # Full site audit with parallel agents
     seo-page/SKILL.md              # Deep single-page analysis
     seo-technical/SKILL.md         # Technical SEO (9 categories)
@@ -33,6 +33,7 @@ claude-seo/
     seo-programmatic/SKILL.md      # Programmatic SEO at scale
     seo-competitor-pages/SKILL.md  # Competitor comparison pages
     seo-hreflang/SKILL.md         # International SEO / hreflang
+    seo-ppc-keywords/SKILL.md     # PPC keyword research for Google/Bing Ads
   agents/                            # 7 parallel subagents
     seo-technical.md               # Crawlability, indexability, security
     seo-content.md                 # E-E-A-T, readability, thin content
@@ -68,6 +69,7 @@ claude-seo/
 | `/seo programmatic` | Programmatic SEO analysis and planning |
 | `/seo competitor-pages` | Competitor comparison page generation |
 | `/seo hreflang <url>` | International SEO / hreflang audit |
+| `/seo ppc-keywords <seed or url>` | PPC keyword research for Google/Bing Ads |
 | `/seo image-gen [use-case] <desc>` | AI image generation for SEO assets (extension) |
 
 ## Development Rules

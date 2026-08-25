@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.6.0] - 2026-08-25
+
+### Added
+- **PPC keyword research skill**: `skills/seo-ppc-keywords/SKILL.md` (`/seo ppc-keywords`) for Google/Bing Ads keyword research: seed expansion, commercial/transactional intent filtering, match type recommendations, negative keyword discovery, ad group clustering, and CPC/competition-based prioritization. Optionally uses the DataForSEO extension for live volume/CPC data.
+
+---
+
 ## [1.5.0] - 2026-03-19
 
 ### Added

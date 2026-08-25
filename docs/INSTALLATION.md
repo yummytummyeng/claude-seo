@@ -103,6 +103,7 @@ rm -rf ~/.claude/skills/seo-hreflang
 rm -rf ~/.claude/skills/seo-images
 rm -rf ~/.claude/skills/seo-page
 rm -rf ~/.claude/skills/seo-plan
+rm -rf ~/.claude/skills/seo-ppc-keywords
 rm -rf ~/.claude/skills/seo-programmatic
 rm -rf ~/.claude/skills/seo-schema
 rm -rf ~/.claude/skills/seo-sitemap
