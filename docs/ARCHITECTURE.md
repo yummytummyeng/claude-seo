@@ -194,7 +194,7 @@ User Request (e.g., /seo page)
 
 ## Extensions
 
-Extensions are opt-in add-ons that integrate external data sources via MCP servers. They live in `extensions/<name>/` and include their own install/uninstall scripts.
+Extensions are opt-in add-ons, usually integrating external data sources via MCP servers (Instagram is offline and needs none). They live in `extensions/<name>/` and include their own install/uninstall scripts.
 
 ```
 extensions/
@@ -240,6 +240,18 @@ extensions/
     │   └── seo-image-presets.md   # SEO-specific presets
     └── docs/
         └── BANANA-SETUP.md        # API key and MCP setup
+│
+└── instagram/                # Instagram toolkit (offline, no MCP)
+    ├── README.md                  # Extension documentation
+    ├── NOTICE.md                  # Upstream MIT attribution
+    ├── install.sh / uninstall.sh
+    ├── agents/seo-social.md       # Site-side social signal audit
+    └── skills/seo-social/
+        ├── SKILL.md               # Router (13 modes)
+        ├── references/            # One file per mode, loaded on demand
+        ├── scripts/               # hookscore, beats, caption, humanize, detect, swipe
+        ├── data/                  # hooks.json, slop.json, rubric.json
+        └── templates/voice.md     # Voice profile template
 ```
 
 ### Available Extensions
@@ -248,6 +260,7 @@ extensions/
 |-----------|---------|-------------|
 | **DataForSEO** | `dataforseo-mcp-server` | 22 commands: live SERP, keywords, backlinks, on-page analysis, content analysis, business listings, AI visibility, LLM mentions |
 | **Banana Image Gen** | `@ycse/nanobanana-mcp` | 6 commands: OG image, hero image, product photo, infographic, custom, and batch generation via Gemini AI |
+| **Instagram** | none (stdlib Python) | 13 modes: reels, captions, carousels, stories, profile score, plan, humanizer, comments, replies, DMs, repurpose, post-mortem, swipe file |
 
 ### Extension Convention
 

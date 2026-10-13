@@ -21,7 +21,8 @@
     "skills/seo-competitor-pages/SKILL.md",
     "skills/seo-hreflang/SKILL.md",
     "extensions/dataforseo/skills/seo-dataforseo/SKILL.md",
-    "extensions/banana/skills/seo-image-gen/SKILL.md"
+    "extensions/banana/skills/seo-image-gen/SKILL.md",
+    "extensions/instagram/skills/seo-social/SKILL.md"
   ],
   "agents": [
     "agents/seo-technical.md",
@@ -32,6 +33,7 @@
     "agents/seo-visual.md",
     "agents/seo-geo.md",
     "extensions/dataforseo/agents/seo-dataforseo.md",
-    "extensions/banana/agents/seo-image-gen.md"
+    "extensions/banana/agents/seo-image-gen.md",
+    "extensions/instagram/agents/seo-social.md"
   ]
 }
