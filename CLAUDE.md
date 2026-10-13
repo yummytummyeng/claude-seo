@@ -44,6 +44,7 @@ claude-seo/
   extensions/                          # Optional add-on capabilities
     dataforseo/                    # Live SEO data via DataForSEO MCP
     banana/                        # AI image generation via Gemini MCP
+    instagram/                     # Instagram toolkit + humanizer (offline)
   docs/                              # Extended documentation
     ARCHITECTURE.md                # System design overview
     COMMANDS.md                    # Full command reference
@@ -69,6 +70,7 @@ claude-seo/
 | `/seo competitor-pages` | Competitor comparison page generation |
 | `/seo hreflang <url>` | International SEO / hreflang audit |
 | `/seo image-gen [use-case] <desc>` | AI image generation for SEO assets (extension) |
+| `/seo social [mode] <input>` | Instagram toolkit and humanizer (extension) |
 
 ## Development Rules
 
@@ -85,4 +87,4 @@ claude-seo/
 1. **Progressive Disclosure**: Metadata always loaded, instructions on activation, resources on demand
 2. **Industry Detection**: Auto-detect SaaS, e-commerce, local, publisher, agency
 3. **Parallel Execution**: Full audits spawn 7 subagents simultaneously
-4. **Extension System**: DataForSEO MCP for live data, Banana MCP for AI image generation
+4. **Extension System**: DataForSEO MCP for live data, Banana MCP for AI image generation, Instagram toolkit (offline)

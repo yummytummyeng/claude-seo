@@ -40,6 +40,7 @@ e-commerce, publishers, agencies). Orchestrates 12 specialized sub-skills and 7 
 | `/seo hreflang [url]` | Hreflang/i18n SEO audit and generation |
 | `/seo dataforseo [command]` | Live SEO data via DataForSEO (extension) |
 | `/seo image-gen [use-case] <description>` | AI image generation for SEO assets (extension) |
+| `/seo social [mode] <input>` | Instagram content, profile scoring, humanizer (extension) |
 
 ## Orchestration Logic
 
@@ -101,7 +102,7 @@ Weighted aggregate of all categories:
 
 ## Sub-Skills
 
-This skill orchestrates 12 specialized sub-skills (+ 2 extensions):
+This skill orchestrates 12 specialized sub-skills (+ 3 extensions):
 
 1. **seo-audit** -- Full website audit with parallel delegation
 2. **seo-page** -- Deep single-page analysis
@@ -117,6 +118,7 @@ This skill orchestrates 12 specialized sub-skills (+ 2 extensions):
 12. **seo-hreflang** -- Hreflang/i18n SEO audit and generation
 13. **seo-dataforseo** -- Live SEO data via DataForSEO MCP (extension)
 14. **seo-image-gen** -- AI image generation for SEO assets via Gemini (extension)
+15. **seo-social** -- Instagram content toolkit and humanizer (extension)
 
 ## Subagents
 
@@ -130,6 +132,7 @@ For parallel analysis during audits:
 - `seo-geo` -- AI crawler access, llms.txt, citability, brand mention signals
 - `seo-dataforseo` -- Live SERP, keyword, backlink, local SEO data (extension, optional)
 - `seo-image-gen` -- SEO image audit and generation plan (extension, optional)
+- `seo-social` -- Site-side Instagram/social signal audit (extension, optional)
 
 ## Error Handling
 

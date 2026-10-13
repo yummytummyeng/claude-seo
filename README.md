@@ -263,6 +263,23 @@ Live SERP data, keyword research, backlinks, on-page analysis, content analysis,
 
 See [DataForSEO Extension](extensions/dataforseo/README.md) for full documentation.
 
+### Instagram
+
+Reels with scored hooks and timed beat sheets, caption linting, carousels, stories, profile scoring, weekly plans, comment/reply/DM drafts, repurposing, post-mortems, a viral swipe file, and a humanizer that strips AI-writing tells. Offline Python, no API key. Drafts only, never posts. Adapted from [instagram-agent-skill](https://github.com/Jakeschincariol/instagram-agent-skill) (MIT).
+
+```bash
+./extensions/instagram/install.sh
+```
+
+```bash
+/seo social reel how we cut proposal time from 5 hours to 20 minutes
+/seo social caption <paste caption>
+/seo social profile <paste name field and bio>
+/seo social human <paste draft>
+```
+
+See [Instagram Extension](extensions/instagram/README.md) for full documentation.
+
 ## Documentation
 
 - [Installation Guide](docs/INSTALLATION.md)

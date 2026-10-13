@@ -345,6 +345,37 @@ AI image generation for SEO assets (extension). Powered by Gemini via nanobanana
 
 ---
 
+### `/seo social [mode] <input>`
+
+Instagram content toolkit (extension). Offline Python tools, no API key. Adapted from instagram-agent-skill (MIT).
+
+**Prerequisites:** Instagram extension installed (`./extensions/instagram/install.sh`)
+
+**Modes:**
+```
+/seo social reel <idea>          # Scored hooks, script, timed beat sheet
+/seo social viral <niche>        # Outlier reels in the niche -> swipe file
+/seo social caption <text>       # Caption lint: feed window, 5-hashtag cap, search terms
+/seo social carousel <idea>      # Cover, slide copy, 1080x1350 files
+/seo social story <goal>         # Story sequence and DM funnel
+/seo social profile <bio>        # Profile score /100 on 12-part rubric
+/seo social plan                 # The week's posts and engagement list
+/seo social human <text>         # Humanize and score a draft
+/seo social comment <post>       # Comments on others' posts
+/seo social reply <thread>       # Replies under your own post
+/seo social dm <context>         # DM templates and follow-ups
+/seo social repurpose <source>   # One long piece into a week of posts
+/seo social audit                # Post-mortem by outlier multiple
+```
+
+**What it does:**
+1. Routes to one on-demand reference per mode
+2. Runs `hookscore.py`, `beats.py`, `caption.py`, `humanize.py`, `detect.py`, `swipe.py` instead of estimating
+3. Humanizes every draft before showing it
+4. Writes drafts only; never posts, never logs into Instagram
+
+---
+
 ## Quick Reference
 
 | Command | Use Case |
@@ -361,6 +392,7 @@ AI image generation for SEO assets (extension). Powered by Gemini via nanobanana
 | `/seo programmatic [url\|plan]` | Programmatic SEO analysis |
 | `/seo schema <url>` | Schema validation |
 | `/seo sitemap <url>` | Sitemap validation |
+| `/seo social [mode] <input>` | Instagram toolkit (extension) |
 | `/seo sitemap generate` | Create new sitemap |
 | `/seo technical <url>` | Technical SEO check |
 | `/seo dataforseo [command]` | Live SEO data (extension) |

@@ -120,6 +120,10 @@ Delay between requests: 1 second
 
 If DataForSEO MCP tools are available, spawn the `seo-dataforseo` agent alongside existing subagents to enrich the audit with live data: real SERP positions, backlink profiles with spam scores, on-page analysis (Lighthouse), business listings, and AI visibility checks (ChatGPT scraper, LLM mentions).
 
+## Instagram Extension (Optional)
+
+If the `seo-social` agent is installed (`~/.claude/agents/seo-social.md`), spawn it alongside existing subagents. It audits the site's social entity signals only (Instagram in `sameAs`, handle consistency, Open Graph completeness, Instagram embed cost, link-in-bio page) and never fetches Instagram itself. Report its findings under a "Social Signals" section; they do not change the SEO Health Score weights.
+
 ## Error Handling
 
 | Scenario | Action |

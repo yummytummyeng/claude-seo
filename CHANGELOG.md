@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [Unreleased]
+
+### Added
+- **Instagram extension** (`extensions/instagram/`): `/seo social` with 13 modes (reel, viral, caption, carousel, story, profile, plan, human, comment, reply, dm, repurpose, audit) and 6 offline stdlib scripts (hookscore, beats, caption, humanize, detect, swipe). Adapted from instagram-agent-skill (MIT, see `extensions/instagram/NOTICE.md`)
+- **seo-social agent**: optional site-side social signal audit during `/seo audit` (`sameAs`, handle consistency, Open Graph, Instagram embed cost, link-in-bio page)
+- **Tests**: `tests/test_instagram_extension.py`
+
 ## [1.5.0] - 2026-03-19
 
 ### Added

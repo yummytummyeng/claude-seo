@@ -1,0 +1,3 @@
+[submodule "extension/instagram"]
+	path = extension/instagram
+	url = https://github.com/Jakeschincariol/instagram-agent-skill.git
