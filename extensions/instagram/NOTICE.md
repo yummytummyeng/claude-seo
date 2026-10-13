@@ -5,6 +5,11 @@ The Instagram extension (`extensions/instagram/`) is adapted from
 https://github.com/Jakeschincariol/instagram-agent-skill
 (commit d03c56b, 2026-09-13), used under the MIT License reproduced below.
 
+The unmodified upstream source is tracked as a git submodule at
+`extension/instagram` (pinned to the same commit) for diffing against future
+upstream releases. It is not loaded by the plugin. Fetch it with
+`git submodule update --init extension/instagram`.
+
 ## Changes from upstream
 
 - The 13 `skills/ig-*/SKILL.md` files became `references/<mode>.md`, each loaded on
